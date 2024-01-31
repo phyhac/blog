@@ -7,7 +7,7 @@ This is a demo of the theme's documentation layout.
 
 ## Hello, World!
 
-```go {filename="main.go"}
+```go
 package main
 
 import "fmt"

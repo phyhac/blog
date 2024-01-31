@@ -1,8 +1,8 @@
 ---
 title: Demo Page
-type: docs
+type: post
 prev: /
-next: docs/folder/
+next: post/folder/
 ---
 
 A simple demo page.

@@ -1,8 +1,8 @@
 ---
 title: Folder
-type: docs
-prev: docs/first-page
-next: docs/folder/leaf
+type: post
+prev: post/first-page
+next: post/folder/leaf
 sidebar:
   open: true
 ---

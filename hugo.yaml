@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Shichao Lai
 
 # import hextra as module
 module:
@@ -18,29 +18,27 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Post
+      pageRef: /post
       weight: 1
+    - name: Research
+      pageRef: /research
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
       weight: 3
-    - name: Search
+    - name: Contact ↗
+      url: "https://github.com/phyhac"
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 6
+      url: "https://github.com/phyhac"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
 params:
   navbar:
@@ -53,4 +51,31 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/phyhac/blog/edit/main/content"
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    # width: wide
+  services:
+    googleAnalytics:
+      ID: G-MEASUREMENT_ID
+  defaultContentLanguage: en
+  languages:
+    en:
+      languageName: English
+      weight: 1
+    zh:
+      languageName: Chinese
+      weight: 2
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: <repository>
+      repoId: <repository ID>
+      category: <category>
+      categoryId: <category ID>
